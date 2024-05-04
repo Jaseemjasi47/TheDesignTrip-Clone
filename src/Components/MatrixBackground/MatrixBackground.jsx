@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import './MatrixBackground.css';
+import IntroText from '../IntroText/IntroText';
+import IntroVideo from '../Video/IntroVideo';
 
 
 const MatrixBackground = () => {
@@ -55,6 +57,8 @@ const MatrixBackground = () => {
           })}
         </div>
       ))}
+      <IntroText />
+      <IntroVideo />
     </div>
   );
 };

@@ -1,0 +1,83 @@
+body {
+  overflow-x: hidden;
+  background-color: black;
+}
+
+.body-container {
+  overflow-x: hidden !important;
+  background-color: black;
+}
+
+.bold {
+  font-weight: bolder;
+}
+
+.lighter {
+  font-weight: lighter;
+}
+
+.dim {
+  color: rgba(151, 151, 151, 0.774);
+}
+
+/* ---------------------------- Font-size -------------------------------------------- */
+
+.rem-5 {
+  font-size: .5rem;
+}
+
+.rem-6 {
+  font-size: .6rem;
+}
+
+.rem-7 {
+  font-size: .7rem;
+}
+
+.rem-8 {
+  font-size: .8rem;
+}
+
+.rem-9 {
+  font-size: .9rem;
+}
+
+.rem1 {
+  font-size: 1rem;
+}
+
+.rem2 {
+  font-size: 2rem;
+}
+
+.rem3 {
+  font-size: 3rem;
+}
+
+.rem4 {
+  font-size: 4rem;
+}
+
+.rem5 {
+  font-size: 5rem;
+}
+
+.rem6 {
+  font-size: 6rem;
+}
+
+.rem7 {
+  font-size: 7rem;
+}
+
+.rem8 {
+  font-size: 8rem;
+}
+
+.rem9 {
+  font-size: 9rem;
+}
+
+.text-center {
+  text-align: center;
+}

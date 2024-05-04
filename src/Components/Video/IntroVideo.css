@@ -1,0 +1,22 @@
+.video {
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+    right: -20%;
+    width: 70vw; /* Set the width of the container */
+  }
+  
+  .video video {
+    width: 100%; /* Set the width of the video to 100% */
+    height: auto; /* Allow the height to adjust automatically to maintain aspect ratio */
+    border-radius: 200px;
+  }
+  
+  @media (max-width: 600px) {
+    .video {
+      top: 30%;
+      transform: translateY(-50%);
+      width: 85vw; /* Change width for screens with a maximum width of 600px */
+    }
+  }
+  
