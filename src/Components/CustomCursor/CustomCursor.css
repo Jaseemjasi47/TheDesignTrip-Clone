@@ -1,0 +1,10 @@
+.custom-cursor {
+    position: fixed;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(255, 255, 255); /* Customize the cursor appearance */
+    border-radius: 50%;
+    pointer-events: none; /* Ensure the cursor doesn't interfere with mouse events */
+    z-index: 1;
+    transform: translate(-50%, -50%);
+}
