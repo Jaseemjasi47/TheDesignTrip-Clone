@@ -49,7 +49,7 @@ const MatrixBackground = () => {
             return (
               <div
                 key={colIndex}
-                className={`p-3 ${isInRadius ? 'active-dot' : ''} ${isInRadius1 ? 'active-dot-1' : ''} ${isInRadius2 ? 'active-dot-2' : ''} ${isInRadius3 ? 'active-dot-3' : ''}`}
+                className={`mbp-3 ${isInRadius ? 'active-dot' : ''} ${isInRadius1 ? 'active-dot-1' : ''} ${isInRadius2 ? 'active-dot-2' : ''} ${isInRadius3 ? 'active-dot-3' : ''}`}
               >
                 <div className="dot"></div>
               </div>
